@@ -1,7 +1,3 @@
-"""
-
-"""
-
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 import pandas as pd
@@ -19,6 +15,7 @@ if __name__ == '__main__':
 	# Create windowsize, K no. of neighbours, features and targets
 
 	WINDOWSIZE = 500
+	K = 100
 
 	for i in range(WINDOWSIZE - 1):
 
@@ -29,7 +26,9 @@ if __name__ == '__main__':
 	# Declare and train model using KNN
 
 	X, y = temp.iloc[WINDOWSIZE - 1:-1], df.shift(-1).iloc[WINDOWSIZE - 1:-1]
+
 	classifier = KNeighborsClassifier(n_neighbors = K)
+
 	knn = classifier.fit(X, y > 0)
 
 	# Store model as library
