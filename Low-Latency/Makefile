@@ -1,0 +1,38 @@
+# Python version
+
+PYTHON = python3
+
+# Store functions
+
+.PHONY = help setup test run clean
+
+FILES = input output
+
+# Execute commands
+
+.DEFAULT_GOAL = commands
+
+commands:
+
+	@echo "TYPE make setup TO SETUP"
+	@echo "TYPE make test TO TEST"
+	@echo "TYPE make run TO RUN PROJECT"
+
+setup:
+	
+	@echo "-----Generating files-----"
+
+	[ -d project_files.project ] || (echo "No directory found, generating..." && mkdir project_files.project)
+	for FILE in ${FILES}; do \
+		touch "project_files.project/$${FILE}.txt"; \
+	done
+	
+run:
+
+	@${PYTHON} LowLatency_predict.py
+
+# .project extension
+
+clean:
+
+	@rm -r *.project
