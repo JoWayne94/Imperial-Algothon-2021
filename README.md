@@ -6,9 +6,10 @@ This repository contains a classifier that predicts whether a single ticker's pr
 Created to meet the requirements for the submission of the Low Latency Challenge for Imperial College Algothon 2021.
 
 Files:
-1. LowLatency_model.py - Trains a k-Nearest-Neighbors (k-NN) Model with Scikit-learn using provided data 2.
-2. LatencyTraining.csv - Data provided with log returns for training purposes
+1. LatencyTraining.csv - Data provided with log returns for training purposes
+2. LowLatency_model.py - Trains a k-Nearest-Neighbors (k-NN) Model with Scikit-learn using provided data 2.
 3. LowLatency_predict.py - Imports the classifier and take inputs through the terminal. The input will be several comma separated terms
+4. Makefile - File used to compile code for the program
 
 ====================================================
 
