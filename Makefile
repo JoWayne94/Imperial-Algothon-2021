@@ -15,14 +15,13 @@ FILES = input output
 commands:
 
 	@echo "TYPE make setup TO SETUP"
-	@echo "TYPE make test TO TEST"
 	@echo "TYPE make run TO RUN PROJECT"
 
 setup:
 	
 	@echo "-----Generating files-----"
 
-	[ -d project_files.project ] || (echo "No directory found, generating..." && mkdir project_files.project)
+	[ -d project_files.project ] || (echo "No directory found, please wait..." && mkdir project_files.project)
 	for FILE in ${FILES}; do \
 		touch "project_files.project/$${FILE}.txt"; \
 	done
