@@ -15,8 +15,9 @@ Returns 1 or 0 if it expects the signal to increase or decrease respectively.
 
 **Test Run**
 
-Run **time make run < test_case{i}.txt** for the k-NN version.
+Run **make test < test_case{i}.txt** to output runtime.
 
 Files:
-1. test_case1.txt - single line of input
-2. test_case2.txt - multiple lines of input
+1. test_case1.txt - 1 line input
+2. test_case2.txt - 5 line input
+3. test_case3.txt - LatencyTraining.csv
