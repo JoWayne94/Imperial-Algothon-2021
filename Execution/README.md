@@ -21,3 +21,11 @@ Files:
 1. test_case1.txt - 1 line input
 2. test_case2.txt - 5 line input
 3. test_case3.txt - LatencyTraining.csv
+
+**Runtimes**
+
+|  Test Case (txt) | real (s) | user (s) | sys (s) | No. of lines |
+| ---------------- | -------- | -------- | ------- | ------------ |
+|    test_case1    |  2.081   |  1.078   |  0.389  |      1       |
+|    test_case2    |  2.740   |  1.181   |  0.567  |      5       |
+|    test_case3    |  7.190   |  8.798   |  0.846  |     1328     |
