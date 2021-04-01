@@ -22,4 +22,4 @@ Validation data: "LaPacks_validation_long_short.csv", Test data: "LaPacks_test_l
 
 **Results**
 
-2nd out of 50 teams.
+Ranked 2nd out of 50 teams.
