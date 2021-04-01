@@ -1,3 +1,7 @@
+"""
+Load dataset and train model for the classification problem.
+"""
+
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 import pandas as pd
@@ -12,7 +16,7 @@ if __name__ == '__main__':
 
 	temp = pd.DataFrame(df.copy())
 
-	# Create windowsize, K no. of neighbours, features and targets
+	# Create windowsize, K parameter (no. of neighbours), features, and targets
 
 	WINDOWSIZE = 500
 	K = 100
@@ -34,4 +38,3 @@ if __name__ == '__main__':
 	# Store model as library
 
 	dump(knn, 'knn_classifier.joblib')
-
