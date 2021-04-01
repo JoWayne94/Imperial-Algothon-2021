@@ -7,6 +7,7 @@ Files:
 2. LowLatency_model.py - Trains a k-Nearest-Neighbors (k-NN) Model with Scikit-learn using provided data 1.
 3. LowLatency_predict.py - Imports the classifier and take inputs through the terminal. The input will be several comma separated terms
 4. Makefile - File used to compile code for the program
+5. knn_classifier.joblib - Classifier library trained by running **python3 LowLatency_model.py**. Essential before running **make test** or **make run**
 
 ==============================================================================================
 
