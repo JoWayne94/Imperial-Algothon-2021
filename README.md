@@ -1,17 +1,7 @@
-# Description & Context
+# Imperial College Algothon 2021 - LaPacks
 
 Where to find the data?
 They are avaialble in the following Google drive. https://drive.google.com/drive/folders/180FaVThDIFtmrCZ2cGiYskvlyvyMv5Au
-
-**Data Cleaning Challenge**
-
-A small timeseries dataset has been corrupted in some form. This dataset is cleaned and evaluated on the MSE of the cleaned dataset and the uncorrupted data.
-
-**Submission**
-Uncorrupted the 'data_clean.csv' file and submitted the clean vision: "LaPacks_data_cleaning.csv".
-
-**Results**
-2nd out of 50 teams.
 
 **Long-Short Sector Strategy Challenge**
 **Goal**
