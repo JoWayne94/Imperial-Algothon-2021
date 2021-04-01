@@ -4,8 +4,8 @@ A small timeseries dataset has been corrupted in some form. This dataset is clea
 
 **Submission**
 
-Uncorrupted the 'data_clean.csv' file and submitted the clean vision: "LaPacks_data_cleaning.csv".
+Uncorrupted the 'data_clean.csv' file, and submitted the clean version: "LaPacks_data_cleaning.csv".
 
 **Results**
 
-2nd out of 50 teams.
+Ranked 2nd out of 50 teams.
