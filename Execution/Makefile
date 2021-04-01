@@ -4,7 +4,7 @@ PYTHON = python3
 
 # Store functions
 
-.PHONY = help setup test run clean
+.PHONY = commands setup test run clean
 
 FILES = input output
 
@@ -14,7 +14,8 @@ FILES = input output
 
 commands:
 
-	@echo "TYPE make setup TO SETUP"
+	@echo "TYPE make setup TO SETUP THE PROJECT"
+	@echo "TYPE make test TO TEST THE PROJECT"
 	@echo "TYPE make run TO RUN PROJECT"
 
 setup:
