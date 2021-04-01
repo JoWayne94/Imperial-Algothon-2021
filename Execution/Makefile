@@ -15,7 +15,7 @@ FILES = input output
 commands:
 
 	@echo "TYPE make setup TO SETUP THE PROJECT"
-	@echo "TYPE make test TO TEST THE PROJECT"
+	@echo "TYPE make test TO TIME THE RUN WITH SPECIFIC INPUTS"
 	@echo "TYPE make run TO RUN PROJECT"
 
 setup:
@@ -27,6 +27,10 @@ setup:
 		touch "project_files.project/$${FILE}.txt"; \
 	done
 	
+test:
+
+	time make run
+
 run:
 
 	@${PYTHON} LowLatency_predict.py
